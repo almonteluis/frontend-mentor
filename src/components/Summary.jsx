@@ -19,6 +19,7 @@ const Summary = (props) => {
                     style={{
                       color: "#313244",
                       paddingRight: "5px",
+                      fontSize: "16px",
                       fontWeight: "700",
                     }}
                   >
