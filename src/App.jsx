@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("/data.json")
+      .get("data.json")
       .then((response) => {
         console.log(response.data);
         setData(response.data);
