@@ -12,6 +12,10 @@ export default defineConfig({
           src: "public/data.json",
           dest: "dist",
         },
+        {
+          src: "public/images/*",
+          dest: "dist",
+        },
       ],
     }),
   ],
