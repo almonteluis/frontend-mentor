@@ -5,8 +5,9 @@ const ResultCard = (props) => {
   return (
     <div className='card blue-gradient-bg center-content'>
       <h4>{props.title}</h4>
+
       <div className='result-score'>
-        <div className='current-result-score'>76</div>
+        <div className='current-result-score'>{props.score}</div>
         <div className='out-of-100'>of 100</div>
       </div>
       <div className='result-score-text'>Great</div>

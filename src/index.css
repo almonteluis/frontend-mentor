@@ -46,3 +46,30 @@ div, button {
   box-shadow: 21px 30px 17px -26px rgba(0,0,0,0.58);
   
 }
+
+@media screen and (max-width: 414px) {
+  body {
+      margin: 0 !important;
+  }
+  .container {
+      flex-direction: column;
+      margin: 0 !important;
+      width: auto;
+      border: 0px solid transparent !important;
+      margin-bottom: 35px !important;
+  }
+
+  .card {
+      width: auto !important;
+      border-top-left-radius: 0 !important;
+      border-top-right-radius: 0 !important;
+  }
+  
+  .summary-container {
+      margin: 0 0 1rem 0 !important;
+  }
+
+  .summary-heading, h4 {
+      margin-bottom: 1rem;
+  }
+}

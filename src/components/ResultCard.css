@@ -19,13 +19,13 @@ h4, .out-of-100, .result-message {
 }
 
 .result-score {
-    text-align: center;
     border-radius: 50%;
     background: linear-gradient(to bottom, var(--violetBlueCircle) , var(--persianBlueCircle));
-    padding: 5rem;
-    height: 55px;
-    width: 55px;
-    margin: 1rem auto;
+    height: 155px;
+    width: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .current-result-score {
